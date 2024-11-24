@@ -19,7 +19,7 @@ h1 {
 }
 
 
-img{
+.profileImg{
     display: block;
     width: 190px;
     border-radius: 50%;
@@ -32,6 +32,7 @@ img{
 body{
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: black;
+    
   }
   
   p{
