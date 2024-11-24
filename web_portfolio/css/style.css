@@ -3,17 +3,30 @@ h1 {
     text-align: center;
 }
 
-#profileImg{
+ .round{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 30px;
+  float: left;
+  font-weight: bold;
+  shape-outside: circle();
+
+
+}
+
+
+img{
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 20%;
+    width: 190px;
     border-radius: 50%;
     border-style:solid;
-    border-color: antiquewhite;
-   
-    
+    border-color: antiquewhite; 
 }
+    
+    
+
 body{
     background-color: rgb(37, 166, 209);
   }
