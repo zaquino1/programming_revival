@@ -1,9 +1,11 @@
 h1 {
-    color: white;
-    text-align: center;
+    display: block;
+    color: antiquewhite;
+    text-align:inherit;
+    width: fit-content;
 }
 
- .round{
+.round{
   width: 200px;
   height: 200px;
   border-radius: 50%;
@@ -25,19 +27,38 @@ img{
     border-color: antiquewhite; 
 }
     
-    
+  
 
 body{
-    background-color: rgb(37, 166, 209);
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: black;
   }
   
   p{
-    font-family: 'Times New Roman', Times, serif;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 20px;
     text-align: justify;
+    color: antiquewhite;
   }
 
-
+  .main-nav {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font: 1.2em sans-serif;
+  
+    display: flex;
+  }
+  
+  .main-nav a {
+    padding: 0.5em 1em;
+    display: block;
+  }
+  
+  .push {
+    margin-left: auto;
+  }
+  
 
 ul {
     list-style-type: none;
