@@ -85,3 +85,26 @@ ul {
   li a:hover {
     background-color: #111;
   } 
+
+  form.contact-form {
+    display: flex;
+    color: beige;
+    align-items: center;  
+    flex-direction: column;
+    padding: 20%;
+    
+  }
+  
+  div.contact-form{
+    display: contents;
+  
+  }
+
+  label,input{
+    display: flex;
+    margin-bottom: 20px;
+  }
+
+  label{
+    padding-right: 10px ;
+  }
